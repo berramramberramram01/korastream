@@ -1,0 +1,121 @@
+.containe_home{
+max-width: 800px;
+background-color: gainsboro;
+min-height: 100vh;
+margin: auto;
+font-size: 27px;
+padding: 20px;
+
+border-radius: 5px;
+row-gap: 10px;
+
+align-items: center;
+display: flex;
+flex-direction: column;
+}
+.game{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid gainsboro;
+    margin-bottom: 10px;
+    border-radius: 10px;
+   width:770px;
+    padding: 10px;
+    box-shadow: #0000007a 3px 2px 4px 0;
+    position: relative;
+}
+.logoAndName{
+   display: flex;
+   align-items: center;
+    width: 30%;
+}
+
+.logoOfclub{
+   height: 35px;
+   border: 1px solid rgb(0, 0, 0);
+   border-radius: 5px;
+   width: 52px;
+   background-color: transparent;
+   background-color:rgb(255, 255, 255);
+   
+}
+.nameclub{
+    background-color: gold;
+    font-family:monospace;
+   margin-right: 10px;
+   padding: 5px;
+   border-radius: 5px;
+}
+.timeOfgame{
+    font-family: monospace;
+}
+.timeAndcommenter{
+    font-family: monospace;
+    text-align: center;
+    height: 35px;
+    width: 178px;
+    border: 1px solid rgb(255, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.live{
+    font-family: monospace;
+    color: red;
+    font-size: 20px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    height: 38px;
+    color: white;
+    text-align: center;
+    line-height: -9px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.titel{
+    font-family: system-ui;
+    font-size: 26px;
+    word-spacing: 5px;
+    color: black;
+    background: #ffffff;
+    width: 300px;
+    height: 47px;
+    text-align: center;
+    border-radius: 7px;
+    border: 1px solid #ffffff;
+    box-shadow: grey 2px 2px 5px 0;
+
+
+
+}
+.input{
+    position: absolute;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+
+}
+.btn_submit{
+    
+       /* position: absolute; */
+       width: 66px;
+           height: 34px;
+           background: red;
+           /* border: none; */
+           color: white;
+           border: 1px solid white;
+           border-radius: 5px;
+           border-radius: 3px;
+               font-family: system-ui;
+               font-size: 14px;
+
+}
